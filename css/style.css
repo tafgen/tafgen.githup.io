@@ -120,7 +120,7 @@ body {
 /* Accueil */
 
 #accueil {
-    margin-top: 150px;
+    margin-top: 110px;
     width: 100%;
     display: flex;
     gap: 35px;
@@ -147,17 +147,16 @@ body {
 .entete {
     height: 100px;
     margin-bottom: 20px;
-    margin: 50px;
-    font-size: 30px;
+    font-size: 1.5rem;
     
 }
 #haut {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #829fda;
     
 }   
 #etudiant {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 500;
 }
 /* A propos Section */
@@ -166,13 +165,17 @@ body {
     display: flex;
     padding: 20px;
     margin-top: 300px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: row;
     gap: 20px;
     justify-content: center;
     align-items: center;
    
+}
+#paragraphaapropos{
+    font-weight: 500;
+    font-size: medium;
 }
 .barcom
 {
@@ -237,7 +240,7 @@ body {
 .excel-fill { width: 66%; background: linear-gradient(90deg,  #1553f1, #689cea);} 
 
 #competences, #formation {
-    margin: 20px auto;
+    margin: 60px auto;
     width: 50%;
     max-width: 860px;
     color: #faf9f9;

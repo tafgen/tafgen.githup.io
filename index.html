@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Moustapha Mbaye</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="logo"> <a href="./index.html" >Moustapha Mbaye</a></div>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+            <label for="menu-toggle" class="hamburger" aria-label="Ouvrir le menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <!-- Navigation Liens -->
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="./index.html#accueil">Accueil</a></li>
+                    <li><a href="./index.html#apropos">A propos</a></li>
+                    <li><a href="./index.html#competences">Compétences</a></li>
+                    <li><a href="./index.html#projets1">Projets</a></li>
+                    <li><a href="./index.html#contact-section">Contacts</a></li>
+                </ul>
+            </nav> 
+        </div>
+    </header>
+    <main>
+        <!--Accueil -->
+        <section id="accueil"> 
+            <article class="entete">
+                <h1><span id="haut">MOUSTAPHA MBAYE :</span></h1>
+                <div id="etudiant"> Etudiant en licence 1 informatique et administration réseaux </div>
+                <p>Bienvenue dans mon portfolio. J'ai le plaisire de vous<br> présenter en résumé mon parcours académique.
+                </p>
+                <p>Vous pouvez voir mes projets en cliquant sur le bouton ci dessous</p>
+                <input type="button" value="Voir mes projets" width="30%" onclick="window.location.href='#projets1';" id="buttonprojets" >
+            </article>
+        
+          <!--A propos -->
+        <article id="apropos">
+           
+            <img src="./images/Mustafaa.png" alt="Moustapha" title="image de Moustapha" id="image-mustafaa">
+            
+            <p>Je me nomme Moustapha Mbaye, j'habite à Thies. J'ai 26 ans. <br>Etudiant en licence 1 informatique et
+                administration réseaux. <br> Je suis passionné des outilles de la nouvelle technologie<br> depuis mon
+                enfence.
+                Mon objectif est d'aquérire des compétances <br> dans le domaine de l'intelligence artificiel.
+            </p>
+            
+        </article>
+        <article id="competences">
+            <h2>Compétences techniques</h2>
+            <div class="skill">
+                <div class="skill-head"><span>HTML</span><span>90%</span></div>
+                <div class="progcontainer"><div class="progress-fill html-fill"></div></div>
+            </div>
+            <div class="skill">
+                <div class="skill-head"><span>CSS</span><span>89%</span></div>
+                <div class="progcontainer"><div class="progress-fill css-fill"></div></div>
+            </div>
+            <div class="skill">
+                <div class="skill-head"><span>JavaScript</span><span>10%</span></div>
+                <div class="progcontainer"><div class="progress-fill js-fill"></div></div>
+            </div>
+            <div class="skill">
+                <div class="skill-head"><span>Algorithme</span><span>70%</span></div>
+                <div class="progcontainer"><div class="progress-fill algo-fill"></div></div>
+            </div>
+            <div class="skill">
+                <div class="skill-head"><span>Langage C</span><span>65%</span></div>
+                <div class="progcontainer"><div class="progress-fill c-fill"></div></div>
+            </div>
+            <div class="skill">
+                <div class="skill-head"><span>Excel</span><span>66%</span></div>
+                <div class="progcontainer"><div class="progress-fill excel-fill"></div></div>
+            </div>
+            <h2>Parcours académique</h2>
+            <p>Filière : Informatique et Administration Réseaux</p>
+            <p>Université : Ecole supérieur des technologie et de management(ESTM), Sénégal</p>
+            <p>Année : Licence 1 (2025-2026)</p>
+        </article>
+
+        <!--Projets et realisations-->
+        
+           
+         <section>
+             <h2 id="h2">Projets et réalisations</h2>
+            <div class="projetscontainer" id="projets1">
+                <div class="produits">
+                    <h3>Projet sur la présentation de certains produits </h3>
+                    <a href="./projets/16-1-application/produits.html" target="_blank"><div id="imageproduits"></div></a>
+                    <p>Ce projet a été réalisé dans le cadre de la matière de développement web. <br>Il s'agit d'une page web qui présente certains produits à travers une image.</p>
+                </div>
+
+                <div class="devoir">
+                    <h3>Projet sur la présentation de trois images </h3>
+                    <a href="./projets/08-cours/devoir/index.html" target="_blank "><div id="imagedevoir"></div></a>
+                    <p>Ce projet a été réalisé dans le cadre de la matière de développement web. <br> Le but etait de de ranger cote a cote trois images <br> et de presenter chacun dans un paragraphe.</p>
+                </div>
+
+                <div class="police">
+                    <h3>Projet sur le téléchargement de polices </h3>
+                    <a href="./projets/13-application/index.html" target="_blank"><div id="imagepolice"></div></a>
+                    <p>Ce projet a été réalisé dans le cadre de la matière de développement web. <br> Le but etait de modifier le texte d'écriture en téléchargeant une police d'écriture sur google font .</p>
+                </div>
+
+                <div class="bonappeti">
+                    <h3>Projet sur la création d'une barre de navigation et pour centrer un paragraphe </h3>
+                    <a href="./projets/16-application/index.html" target="_blank"><div id="imageappeti"></div></a>
+                    <p>Ce projet a été réalisé dans le cadre de la matière de développement web. <br> Le but etait de mettre en place une barre de navigation, <br> mettre une image de font et centrer le paragraphe.</p>
+                </div>
+            </div>   
+        </section>
+
+        <!--Parcours/Formations-->
+        <article id="timeline-section" class="timeline-section">
+            <h2>Timeline académique</h2>
+            <div class="timeline">
+                <article class="timeline-item">
+                    <span class="timeline-year">2021</span>
+                    <div class="timeline-card">
+                        <h3>Baccalauréat S2</h3>
+                        <p>Obtention du Bac S2 au Lycée Accademia Limamoulaye avec mention.</p>
+                    </div>
+                </article>
+                <article class="timeline-item">
+                    <span class="timeline-year">2022</span>
+                    <div class="timeline-card">
+                        <h3>Inscription à l'université</h3>
+                        <p>2022 : Début de la formation en informatique à l'Université Cheikh Anta Diop (UCAD).
+                            2023 : Arret de la formation à l'UCAD pour des raisons personnelles.</p>
+                        </p>
+                    </div>
+                </article>
+                <article class="timeline-item">
+                    <span class="timeline-year">2025</span>
+                    <div class="timeline-card">
+                        <h3>Licence 1 en cours</h3>
+                        <p>Actuellement en Licence 1 Informatique et Administration Réseaux à l'ESTM.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!--Formulaire de contact-->
+                
+        <section class="contact-section" id="contact-section">
+            <div class="contact-content">
+                <div class="contact-form-card">
+                    <h1>Contactez-moi</h1>
+                    <p>Veuillez remplir le formulaire ci-dessous pour me contacter.</p>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Nom</label>
+                            <input id="name" name="name" type="text" placeholder="Votre nom">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input id="email" name="email" type="email" placeholder="votreadresse@mail.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Sujet</label>
+                            <select id="subject" name="subject">
+                                <option value="">-- Choisir un sujet --</option>
+                                <option value="collaboration">Collaboration</option>
+                                <option value="projet">Projet</option>
+                                <option value="question">Question</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Votre message..."></textarea>
+                        </div>
+                        <button type="submit">Envoyer</button>
+                    </form>
+                </div>
+                <aside class="contact-links-card">
+                    <h2>Mes coordonnées</h2>
+                    <p>Vous pouvez aussi me contacter via :</p>
+                    <ul>
+                        <li><strong>Email :</strong> <a href="mailto:moustapha.mbaye1@univ-thies.sn">moustapha.mbaye1@univ-thies.sn</a></li>
+                        <li><strong>LinkedIn :</strong> <a href="https://www.linkedin.com" target="_blank" >linkedin.com/in/moustaphambaye</a></li>
+                        <li><strong>GitHub :</strong> <a href="https://github.com/tafgen" target="_blank">github.com/moustaphambaye</a></li>
+                    </ul>
+                </aside>
+            </div>
+        </section>   
+    </main>
+    <footer>
+        <div class="foot">
+            <div class="footernom"><p >&copy;Moustapha Mbaye--2026</p></div>
+            <div class="footerliens">
+                <a href="https://www.linkedin.com/in/moustapha-mbaye-9b8a1b1b3/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/moustaphambaye" target="_blank">GitHub</a>
+                <a href="https://www.instagram.com/mustafaa_mbay/" target="_blank">Instagram</a>
+            </div>
+            <div class="vershaut"><a href="#haut" ><img src="./images/up-arrow.png" alt="up_arrow" id="up"></a></div>
+        </div>
+    </footer>
+</body>
+
+</html>

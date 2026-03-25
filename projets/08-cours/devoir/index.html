@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 35px;
+            margin-left: 50px;
+            margin-right: 50px;
+            text-align: center;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+            border: 1px solid;
+            border-radius: 5px;
+        }
+
+        img:hover {
+            border: 2px solid rgb(4, 219, 126);
+        }
+
+        h1 {
+            text-align: center;
+        }
+        h1,p,dd
+        {
+            font-family:"Inter";
+            color: aliceblue;
+        }
+        fieldset{
+            width: 100px;
+            padding: 20px;
+            
+        }
+
+        body {
+            background-image: url(../image/pHq2y.png);
+        }
+
+        p {
+            text-align: center;
+        }
+        input
+        {
+            border: 1px solid green;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Galerie de Moustapha Mbaye</h1>
+    <div class="container">
+        <div>
+            <img src="../image/smountazkha.jpg" alt="Serigne Mountakha" title="Serigne Mountakha">
+            <p>S Mountakha</p>
+        </div>
+        <div>
+            <img src="../image/Cheikhibra.webp" alt="Mame Cheikh Ibra">
+            <p>Mame Cheikh Ibra</p>
+        </div>
+        <div>
+            <img src="../image/WhatsApp Image 2026-02-17 at 17.03.10.jpeg" alt="Serigne Touba">
+            <p>S Touba</p>
+        </div>
+    </div>
+    <dl>
+        <dt>S Touba Mbacké</dt>
+        <dd>
+            <strong>Ahmadou Bamba</strong>, dit Khadimou ar-Rassoul et serigne Touba, né en 1853 à Mbacké-Baol et mort
+            le 19 juillet 1927
+            à Diourbel, est un musulman sunnite, <em>théologien acharite, juriste malékite</em>, fondateur de sa propre
+            voie
+            soufie.
+        </dd>
+    </dl>
+    <dl>
+        <dt>Mame Cheikh Ibra Fall</dt>
+        <dd> <strong></strong>Mame Cheikh Ibra Fall </strong> plus connu sous les noms de Cheikh Ibra, Sidy Birahim, ou
+            Mame Cheikh est un religieux et dirigeant
+            Fils de Modou Rokhaya Fall, grand érudit de l'islam au Sénégal et de Mame Seynabou Ndiaye, Mame Cheikh
+            Ibrahima Fall descend en ligne directe de <em>la famille royale</em> du damel Dethialaw Atmane Fall, de la
+            noblesse
+            Géer du Cayor.
+        </dd>
+    </dl>
+    <dl>
+        <dt>S Mountakha Mbacké</dt>
+        <dd>
+            <strong>S Mountakha Mbacké</strong>(né le 11 juillet 1932) est le Khalife général des Mourides, une
+            confrérie soufie influente au Sénégal. Il a succédé à Serigne Sidi Moukhtar Mbacké en janvier 2018. <br>
+            Avant de devenir Khalife général, Serigne Mountakha Mbacké a occupé plusieurs postes de
+            <em>responsabilité</em> au
+            sein de la confrérie. Il a été impliqué dans la gestion des affaires religieuses, éducatives et sociales des
+            <br>
+            Mourides. Il a supervisé plusieurs projets de construction de mosquées, d'écoles coraniques et
+            d'institutions sociales.
+        </dd>
+    </dl>
+
+    <form action="">
+        <p>Si vous voulez contacter l'artiste, veuillez remplire le formulaire ci-dessous 👇</p>
+
+        <fieldset>
+            <div><label for="nom">Nom</label><input type="text" id="nom"></div>
+            <div><label for="prenom">prénom</label><input type="text" id="prenom"></div>
+            <div><label for="telephone">Téléphone</label><input type="number" id="telephone"></div>
+            <div><input type="button" value="Envoyer"></div>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+ul
+{
+    list-style: none;
+    text-align: right;
+    
+}
+li{
+    display: inline-block;
+    text-align: justify;
+    
+}
+.barnav{
+    
+    align-items: center;
+    margin: 10px;
+}
+
+.txt{
+    color: rgb(255, 0, 0);
+}
+
+body{
+    background-image: url("./image/pexels-janetrangdoan-793765.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.entet {
+    background-color: rgb(185, 185, 240);
+    padding: 7px;
+    width: 150px;
+    margin-left: 40%;
+    margin-top: 40vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    background-color: rgb(185, 185, 240);
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 6px;
+    margin: 3px;
+}
+p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 300px;
+}

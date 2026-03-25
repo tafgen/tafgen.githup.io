@@ -1,0 +1,189 @@
+        *
+        {
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            height: 160px;
+      
+        }
+        nav
+        {
+            float: left;
+            margin-bottom: 40px;
+
+        }
+        form
+        {
+            float: right;
+            padding: 10px;
+        }
+        input[value*=Rechercher]
+        {
+           padding: 1px;
+           background-color: rgb(78, 78, 249);
+           color: #fff;
+           border-radius: 3px;
+           border: 1px solid #444;
+        }
+        main
+        {
+            clear: both; 
+        }
+        li{
+            display: inline-block;
+            margin-right: 20px;
+            list-style: none;
+            border-bottom: 2px solid rgb(0, 157, 255);
+            padding: 5px;
+           
+        }
+        a{
+            text-decoration: none;
+             color: rgb(0, 157, 255);
+        }
+
+        .vert{
+            background-color: rgb(39, 126, 13);
+            height: 80px;
+            width: 100px;
+            text-align: center;
+            align-items: center;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+        .jeune{
+            background-color: rgb(241, 253, 2);
+            height: 80px;
+            width: 100px;
+            text-align: center;
+        }
+        .rouge{
+            background-color: rgb(199, 81, 14);
+            height: 80px;
+            width: 100px;
+            text-align:center;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+        /* a:hover{
+            text-decoration:none;
+            background-color: aqua; */
+        /* } */
+        /* .lien{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        } */
+        h1{
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        /* .nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        } */
+        .colorvert,.colorjaune,.colorrouge{
+            align-items: center;
+            justify-content: center;
+            padding-top: 30px;
+        }
+        /* a{
+            display: block;
+            text-decoration: none;
+            justify-content: space-between;
+            margin: 10px;
+            padding-left: 10px;
+            border-bottom: 2px solid rgba(49, 114, 224, 0.731);
+            padding-bottom: 5px;
+        } */
+
+        /*CSS pour lq pqge des produits*/
+        /* .ananas{
+            background-image: url(./images/ananas.jpg);
+            
+            width: auto;
+            justify-content: center; 
+        } */
+        body{
+            padding: 30px;
+        }
+        ul{
+            list-style: none;
+
+        }
+        .containerproduit{
+            display:flex;
+            justify-content: center; 
+            gap: 20px;
+            
+        }
+        img{
+            width: 200px;
+            height: 200px; 
+            border: 1px solid black;
+            
+            
+        }
+        .ananas,.mangue,.fraise{
+            width: 250px;
+            background-color: rgba(199, 199, 195, 0.906);
+             padding: 20px; 
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: 0, 7px, 6px, rgb(0, 0,0,0,1);
+            padding-bottom: 40px;
+        }
+        .coloranas,.colormangue,.colorfraise
+        {
+            width: 200px;
+            height: 200px; 
+            border: 1px solid black;
+            border-radius: 10px;
+            margin: auto;
+        }
+        p{
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        .fraise :hover{
+            border: 5px solid;
+            color: rgb(141, 141, 234);
+        }
+        .colormangue:hover{
+            border: 5px solid;
+            color: rgb(141, 141, 234);
+        }
+        .coloranas:hover{
+             border: 5px solid;
+            color: rgb(141, 141, 234);
+        }
+        .cadre
+        {
+            border: 1px solid;
+            height: 250px;
+            width: 250px;
+            text-align: center;
+            background: linear-gradient(to top, rgb(103, 164, 228),rgb(237, 237, 239));
+            border-radius: 5px;
+            justify-content: center;
+            align-items: center;
+        }
+        input{
+            border: 1px solid blue;
+            border-radius: 3px;
+        }
+        #button
+        {
+            background-color: rgb(51, 123, 232);
+            padding: 5px;
+            border-radius: 3px;
+        }

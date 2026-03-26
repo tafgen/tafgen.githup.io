@@ -692,7 +692,19 @@ body {
     align-items: center;
     gap: 12px;
 }
-
+audio
+{
+    width: 80%;
+    
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    margin: 20px;
+    margin-left: 20%;
+    border-radius: 10px;
+    
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+}
 .foot {
     height: 40vh;
     flex-wrap: wrap;
